@@ -65,6 +65,7 @@ class ImagePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Container(
+        // color: Colors.deepOrange,
         width: double.infinity,
         height: double.infinity,
         decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("${immages[inx]}"))),

@@ -54,7 +54,7 @@ class _FirsPageState extends State<FirsPage> {
 
                 startActionPane: ActionPane(motion: DrawerMotion(), children: [
                   SlidableAction(
-                    autoClose: true,
+                    // autoClose: true,
                     backgroundColor: Colors.black,
                     onPressed: (context) {
 
